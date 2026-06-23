@@ -9,6 +9,7 @@ import Logo from "@/components/Logo";
 import MainContent from "@/components/MainContent";
 import MainWrapper from "@/components/MainWrapper";
 import PasswordInput from "@/components/PasswordInput";
+import SignUpLink from "@/components/SignUpLink";
 import SocialLogins from "@/components/SocialLogins";
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
                         <GoogleLoginButton />
                         <AppleLoginButton />
                     </SocialLogins>
+                    <SignUpLink />
                 </LoginForm>
             </LeftColumn>
         </MainWrapper>
