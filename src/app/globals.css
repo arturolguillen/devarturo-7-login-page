@@ -1,5 +1,13 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/forms";
 
 @theme inline {
     --font-sans: var(--font-quicksand);
+}
+
+.peer:focus~label,
+.peer:not(:placeholder-shown)~label {
+    transform: translateY(-1.5rem) scale(0.85);
+    color: #4f46e5;
+    /* indigo-600 */
 }
