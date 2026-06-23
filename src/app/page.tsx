@@ -9,6 +9,7 @@ import LoginForm from "@/components/LoginForm";
 import Logo from "@/components/Logo";
 import MainContent from "@/components/MainContent";
 import MainWrapper from "@/components/MainWrapper";
+import MobileIllustration from "@/components/MobileIllustration";
 import PasswordInput from "@/components/PasswordInput";
 import QuoteCard from "@/components/QuoteCard";
 import RightColumn from "@/components/RightColumn";
@@ -39,6 +40,7 @@ export default function Home() {
                 <Illustration />
                 <QuoteCard />
             </RightColumn>
+            <MobileIllustration />
         </MainWrapper>
     );
 }
