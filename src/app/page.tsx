@@ -4,6 +4,7 @@ import LoginForm from "@/components/LoginForm";
 import Logo from "@/components/Logo";
 import MainContent from "@/components/MainContent";
 import MainWrapper from "@/components/MainWrapper";
+import PasswordInput from "@/components/PasswordInput";
 
 export default function Home() {
     return (
@@ -15,6 +16,7 @@ export default function Home() {
                 </div>
                 <LoginForm>
                     <EmailInput />
+                    <PasswordInput />
                 </LoginForm>
             </LeftColumn>
         </MainWrapper>
