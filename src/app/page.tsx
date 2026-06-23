@@ -1,4 +1,6 @@
+import AppleLoginButton from "@/components/AppleLoginButton";
 import EmailInput from "@/components/EmailInput";
+import GoogleLoginButton from "@/components/GoogleLoginButton";
 import LeftColumn from "@/components/LeftColumn";
 import LoginButton from "@/components/LoginButton";
 import LoginContinueWith from "@/components/LoginContinueWith";
@@ -7,6 +9,7 @@ import Logo from "@/components/Logo";
 import MainContent from "@/components/MainContent";
 import MainWrapper from "@/components/MainWrapper";
 import PasswordInput from "@/components/PasswordInput";
+import SocialLogins from "@/components/SocialLogins";
 
 export default function Home() {
     return (
@@ -21,6 +24,10 @@ export default function Home() {
                     <PasswordInput />
                     <LoginButton />
                     <LoginContinueWith />
+                    <SocialLogins>
+                        <GoogleLoginButton />
+                        <AppleLoginButton />
+                    </SocialLogins>
                 </LoginForm>
             </LeftColumn>
         </MainWrapper>
