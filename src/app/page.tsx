@@ -1,5 +1,6 @@
 import EmailInput from "@/components/EmailInput";
 import LeftColumn from "@/components/LeftColumn";
+import LoginButton from "@/components/LoginButton";
 import LoginForm from "@/components/LoginForm";
 import Logo from "@/components/Logo";
 import MainContent from "@/components/MainContent";
@@ -17,6 +18,7 @@ export default function Home() {
                 <LoginForm>
                     <EmailInput />
                     <PasswordInput />
+                    <LoginButton />
                 </LoginForm>
             </LeftColumn>
         </MainWrapper>
